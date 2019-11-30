@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Nov 30 16:23:33 EET 2019
+0.baseType=DIRECTORY
+0.base=E\:\\ITG\\ITGTask\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

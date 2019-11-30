@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/colorBlack"
+    tools:context=".ui.fragments.characterdetails.CharacterDetailsFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginBottom="20dp">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="300dp">
+           <ImageView
+               android:id="@+id/img_character_details_photo"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+           <ImageView
+               android:id="@+id/img_back"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:layout_margin="10dp"
+               android:src="@drawable/ic_back"/>
+       </RelativeLayout>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_name"
+           android:textColor="@color/colorRed" />
+       <TextView
+           android:id="@+id/tv_character_details_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+           android:textSize="16sp"
+           android:text=""
+           android:layout_marginBottom="10dp"
+           android:textColor="@color/colorWhite" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_desc"
+           android:textColor="@color/colorRed" />
+       <TextView
+           android:id="@+id/tv_character_details_desc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+           android:textSize="16sp"
+           android:text=""
+           android:layout_marginEnd="20dp"
+           android:gravity="start"
+           android:layout_marginBottom="10dp"
+           android:textColor="@color/colorWhite" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_comics"
+           android:textColor="@color/colorRed" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_character_details_comics"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_series"
+           android:textColor="@color/colorRed" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_character_details_series"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_stories"
+           android:textColor="@color/colorRed" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_character_details_stories"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_events"
+           android:textColor="@color/colorRed" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_character_details_events"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:textSize="16sp"
+           android:text="@string/label_links"
+           android:textColor="@color/colorRed" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_character_details_links"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp" />
+   </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

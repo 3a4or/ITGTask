@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:drawableEnd="@drawable/ic_right_arrow"
+    android:gravity="start"
+    android:id="@+id/tv_film_link"
+    android:text=""
+    android:drawablePadding="10dp"
+    android:textColor="@color/colorWhite"
+    android:layout_marginBottom="20dp">
+
+</TextView>
